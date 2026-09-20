@@ -1,0 +1,21 @@
+# Служебное
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Выданные организаторами тестовые картинки: 20 000 PNG, репозиторию не место.
+# Куда их положить, чтобы получить сабмишен, написано в README.
+test/
+
+# Всё скачиваемое и генерируемое. Правило одно: в репозиторий идут рецепты и lock-файлы
+# (URL + SHA-256 каждого артефакта), а не сами артефакты. Команды воспроизведения — в README.
+data/fonts/google/
+data/fonts/index.json
+data/corpus/*.txt
+data/backgrounds/
+data/generated/
+data/real/hiertext/
+data/real/textocr/
+data/real/cyrillic/
+data/real/*.parquet

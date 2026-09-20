@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avitocv"
+version = "0.1.0"
+description = "Text crop orientation classification (0/180 degrees)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "opencv-python>=4.8",
+    "fonttools>=4.40",
+    "pandas>=2.0",
+    "pyarrow>=14.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "scipy>=1.11",
+    "torch>=2.1",
+]
+
+# fsspec нужен только сборке корпуса: она читает шарды Wikipedia по HTTP range-запросами,
+# чтобы не качать сотни мегабайт ради нескольких сотен тысяч строк.
+[project.optional-dependencies]
+data = ["fsspec>=2023.9"]
+dev = ["pytest>=7.4", "pyflakes>=3.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

@@ -1,0 +1,21 @@
+paths:
+  font_index: data/fonts/index.json
+  russian_corpus: data/corpus/ru.txt
+  english_corpus: data/corpus/en.txt
+  test_profile: configs/test_profile.json
+  background_dir: data/backgrounds
+
+weights:
+  russian: 6.0
+  english: 2.0
+  patterns: 1.0
+
+preprocess:
+  height: 32
+  width: 192
+  channel_count: 1
+
+train_length: 1000000
+validation_length: 20000
+train_seed: 1234
+validation_seed: 9999

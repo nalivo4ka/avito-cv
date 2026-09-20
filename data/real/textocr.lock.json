@@ -1,0 +1,20 @@
+{
+  "annotations": {
+    "train": {
+      "url": "https://dl.fbaipublicfiles.com/textvqa/data/textocr/TextOCR_0.1_train.json",
+      "sha256": ""
+    },
+    "val": {
+      "url": "https://dl.fbaipublicfiles.com/textvqa/data/textocr/TextOCR_0.1_val.json",
+      "sha256": ""
+    }
+  },
+  "images": {
+    "url": "https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip",
+    "sha256": ""
+  },
+  "crop_count": 781655,
+  "excluded_images": 26,
+  "upside_down": 5825,
+  "rejected": 721092
+}

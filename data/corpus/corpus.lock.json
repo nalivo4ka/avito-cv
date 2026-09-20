@@ -1,0 +1,18 @@
+{
+  "corpora": [
+    {
+      "name": "ru",
+      "url": "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.ru/train-00001-of-00021.parquet",
+      "path": "data/corpus/ru.txt",
+      "line_count": 400000,
+      "sha256": "4f189025c1c670f796642fa0cbe4020a16e49239ca19f65f02836c8fd33bf2c8"
+    },
+    {
+      "name": "en",
+      "url": "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/main/20231101.en/train-00000-of-00041.parquet",
+      "path": "data/corpus/en.txt",
+      "line_count": 150000,
+      "sha256": "e6df14852722ab79f7c14a03da3f10aa9b7df9f81d8e5c19a5bc197478c855d2"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "cyrillic_plate": {
+      "url": "https://huggingface.co/api/datasets/Foximaz/russian_ocr_small/parquet/car_plate/test/0.parquet",
+      "sha256": "22f77801f2c035624db9bce550f456b9ffd9fe13f893a4584f2bec406be93ca1"
+    },
+    "cyrillic_handwriting": {
+      "url": "https://huggingface.co/api/datasets/Foximaz/russian_ocr_small/parquet/handwriting/test/0.parquet",
+      "sha256": "6d48f94107ca9af7692179f2006e17f14b3c3b767fd479edd69f3851c24d4d85"
+    }
+  },
+  "crop_count": 3038,
+  "effective_sample_size": 3038,
+  "slices": {
+    "cyrillic_handwriting": 1538,
+    "cyrillic_plate": 1500
+  }
+}

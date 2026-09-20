@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "url": "https://raw.githubusercontent.com/google-research-datasets/hiertext/main/gt/validation.jsonl.gz",
+    "sha256": "ce7085d8bf24c2f13df852715c34494e6748cafcabb4bfc7a6e2bb320f58d23a"
+  },
+  "images": {
+    "url": "https://huggingface.co/datasets/1398listener/Hiertext/resolve/main/validation.tgz",
+    "sha256": "1903446ab63a9be482b7f279cc54198904987efe2b30d3004225d48d1b84c4bf"
+  },
+  "crop_count": 42372,
+  "effective_sample_size": 10445,
+  "slices": {
+    "hiertext_scene": 38991,
+    "hiertext_handwritten": 3381
+  }
+}
