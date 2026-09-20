@@ -17,7 +17,7 @@
 Обучающих данных для этого не нужно — веса лежат в репозитории.
 
 ```bash
-git clone <этот репозиторий>
+git clone https://github.com/nalivo4ka/avito-cv
 cd AvitoCV
 pip install -e .
 ```
