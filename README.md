@@ -18,7 +18,7 @@
 
 ```bash
 git clone https://github.com/nalivo4ka/avito-cv
-cd AvitoCV
+cd avito-cv
 pip install -e .
 ```
 
